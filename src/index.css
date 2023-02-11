@@ -25,10 +25,10 @@ body{
   border: solid 2px ;
 }
 
-.stop,.restart{
+.stop,.reset{
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: rgb(53, 53, 53);
   font-size: 18px;
   background-color: rgb(255, 216, 93);
   width: 130px;
