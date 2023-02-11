@@ -26,9 +26,9 @@ const SimpleTimer = () => {
         setMinutes(0);
     };
 
-    const stop = () => {
+    /*const stop = () => {
         clearInterval(timer);
-    };
+    };*/
 
 
     return (
@@ -38,7 +38,7 @@ const SimpleTimer = () => {
                     <h1>Timer</h1>
                     <h1>{minutes < 10 ? "0" + minutes: minutes}:{seconds < 10 ? "0" + seconds: seconds}</h1>
                     <button className="restart" onClick={restart}>Restart</button>
-                    <button className="stop" onClick={stop}>Stop</button>
+                   {/* <button className="stop" onClick={stop}>Stop</button> */}
                 </div>
             </div>
             
